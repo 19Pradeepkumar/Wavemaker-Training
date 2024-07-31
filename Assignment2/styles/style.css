@@ -1,0 +1,70 @@
+
+.form{
+    align-items: center;
+    color: rgb(32, 185, 103);
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 600px;
+    margin-left: 350px;
+}
+
+
+.heading{
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    border:1px solid rgb(12, 13, 13);
+    height: 40px;
+    background-color: rgb(231, 233, 233);
+}
+
+
+.section{
+    margin: 20px ;
+}
+
+.first-col{
+    float: left;
+    width: 50%;
+    padding-right:20px ;
+}
+
+.sec-col{
+    
+}
+
+.input-width{
+    height: 18px;
+    width: 250px;
+}
+
+label{
+    display: block;
+}
+
+.submit-button{
+    height: 25px;
+    background-color: rgb(221, 224, 224);
+    text-align: end;
+    padding: 20px 20px;
+}
+
+.submit-button button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(207, 252, 207);
+}
+
+
+@media screen and (max-width:480px){
+    .form{
+        margin-left: 20px;
+        width: 400px;
+    }
+}
+
+
+
+
+
+
