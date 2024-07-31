@@ -61,6 +61,10 @@ label{
         margin-left: 20px;
         width: 400px;
     }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
