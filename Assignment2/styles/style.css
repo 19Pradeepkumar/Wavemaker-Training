@@ -1,11 +1,20 @@
+body{
+    /* background-color: rgb(93, 93, 167); */
+}
+
+.container{
+    width: 70%;
+    margin:auto;
+    background-color: rgb(34, 101, 203);
+    padding: 20px 40px;
+}
 
 .form{
     align-items: center;
     color: rgb(32, 185, 103);
     background-color: aliceblue;
-    border: 2px solid black;
-    width: 600px;
-    margin-left: 350px;
+    width: 100%;
+    margin:auto;
 }
 
 
@@ -13,14 +22,14 @@
     padding-top: 10px;
     font-size: 30px;
     text-align: center;
-    border:1px solid rgb(12, 13, 13);
     height: 40px;
     background-color: rgb(231, 233, 233);
 }
 
 
-.section{
-    margin: 20px ;
+
+.block{
+    margin-left: 20px ;
 }
 
 .first-col{
@@ -29,22 +38,25 @@
     padding-right:20px ;
 }
 
-.sec-col{
-    
-}
 
-.input-width{
+.input-width,select{
     height: 18px;
-    width: 250px;
+    width:300px;
 }
 
 label{
     display: block;
 }
 
+
+
+.input-width-email{
+    width: 86%;
+    height: 18px;
+}
 .submit-button{
     height: 25px;
-    background-color: rgb(221, 224, 224);
+    background-color: rgb(235, 237, 237);
     text-align: end;
     padding: 20px 20px;
 }
@@ -55,15 +67,58 @@ label{
     background-color: rgb(207, 252, 207);
 }
 
+#bio{
+    width: 89%;
+    height: 50px;
+}
 
-@media screen and (max-width:480px){
+
+
+
+@media screen and (max-width:769px){
     .form{
-        margin-left: 20px;
-        width: 400px;
+        margin-left: 0px;
+        width: 100%;
     }
-    .section{
+    .input-width,select{
+        width: 200px;
+    }
+    .input-width-email{
+        width: 200px;
+    }
+    .options{
+        display: flex;
+    }
+    #bio{
+        width: 450px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .form{
+        width: 100%;
+    }
+    .input-width,select{
+        width: 90%;
+    }
+    .first-col{
+        width: 100%;
+    }
+    .block{
         display: flex;
         flex-direction: column;
+    }
+    .input-width-email{
+        width: 90%;
+    }
+
+    .options{
+        display: flex;
+    }
+    #bio{
+        width: 90%;
+        height: 50px;
     }
 }
 
