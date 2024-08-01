@@ -7,81 +7,87 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <div class="form">
-    <div class="heading" style="color: black;">Create Account</div>
-    <form >
-    <div class="section">
-    <div class="first-col">
-        <label for="first-name">First Name *</label>
-        <input type="text" id="first-name" placeholder="enter your first name" class="input-width">
-    </div>
-    <div class="sec-col">
-        <label for="last-name">Last Name *</label> 
-        <input type="text" id="last-name" placeholder="enter your last name" class="input-width">
-    </div>
-    </div>
-    <div style="margin-left: 20px;">
-        <label for="Email">Email</label>
-        <input type="email" id="Email" placeholder="enter your email" class="input-width" style="width: 550px;">
-    </div>
-    <div class="section">
-    <div class="first-col">
-        <label for="password">Password *</label>
-        <input type="Password" id="Password" placeholder="enter your password" class="input-width">
-    </div>
-    <div class="sec-col">
-        <label for="confirm-password">Confirm Password *</label>
-        <input type="password" id="confirm-password" placeholder="confirm password" class="input-width">
-    </div>
-    </div>
-    <div>
-    <div class="section">
-    <div class="first-col">
-        <label for="gender">Gender *</label>
-        <input type="radio" id="" name="gender" value="male"><span>Male</span>
-        <input type="radio" id="female" name="gender" value="female"><span>Female</span>
-    </div>
-    <div class="sec-col">
-        <label for="hobbies">Hobbies</label>
-        <input type="checkbox" id="music" name="Hobbies" value="music"><span>Music</span>
-        <input type="checkbox" id="sports" name="Hobbies" value="sports"><span>sports</span>
-        <input type="checkbox" id="travel" name="Hobbies" value="travel"><span>travel</span>
-        <input type="checkbox" id="movies" name="Hobbies" value="movies"><span>Movies</span>
-    </div>
-</div>
-   <div class="section">
-        <div class="first-col">
-        <label>Source of income</label>
-        <select id="income" name="source_of_income">
-            <option value="Employed">Employed</option>
-            <option value="others">others</option>
-        </select>
+    <div class="container">
+    <form action="post">
+        <div class="form">
+            <div class="heading" style="color: black;">Create Account</div>
+            <div class="block">
+                <div class="first-col">
+                    <label for="first-name">First Name *</label>
+                    <input type="text" id="first-name" placeholder="enter your first name" class="input-width">
+                </div>
+                <div class="sec-col">
+                    <label for="last-name">Last Name *</label>
+                    <input type="text" id="last-name" placeholder="enter your last name" class="input-width">
+                </div>
+            </div>
+            <div style="margin-left: 20px;">
+                <label for="Email">Email</label>
+                <input type="email" id="Email" placeholder="enter your email" class="input-width-email">
+            </div>
+            <div class="block">
+                <div class="first-col">
+                    <label for="password">Password *</label>
+                    <input type="Password" id="Password" placeholder="enter your password" class="input-width">
+                </div>
+                <div class="sec-col">
+                    <label for="confirm-password">Confirm Password *</label>
+                    <input type="password" id="confirm-password" placeholder="confirm password" class="input-width">
+                </div>
+            </div>
+            <div>
+                <div class="block">
+                    <div class="first-col">
+                        <label for="gender">Gender *</label>
+                        <input type="radio" id="" name="gender" value="male"><span>Male</span>
+                        <input type="radio" id="female" name="gender" value="female"><span>Female</span>
+                    </div>
+                    <div class="sec-col">
+                        <label for="hobbies">Hobbies</label>
+                        <div class="options">
+                        <input type="checkbox" id="music" name="Hobbies" value="music"><span>Music</span>
+                        <input type="checkbox" id="sports" name="Hobbies" value="sports"><span>sports</span>
+                        <input type="checkbox" id="travel" name="Hobbies" value="travel"><span>travel</span>
+                        <input type="checkbox" id="movies" name="Hobbies" value="movies"><span>Movies</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="first-col">
+                        <label>Source of income</label>
+                        <select id="income" name="source_of_income" >
+                            <option value="Employed">Employed</option>
+                            <option value="others">others</option>
+                        </select>
+                    </div>
+                    <div class="sec-col">
+                        <label for="income">Income</label>
+                        <input type="range" id="income" min="1" max="100">
+                        <span style="background-color: rgb(27, 222, 56);color: white;">20k</span>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="first-col">
+                        <label>upload profile picture</label>
+                        <input type="file">
+                    </div>
+                    <div class="sec-col">
+                        <label>Age</label>
+                        <input type="number" class="input-width">
+                    </div>
+                </div>
+                <div class="block">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio"></textarea><br>
+                </div>
+                <br>
+                <div class="submit-button">
+                    <button>create</button>
+                </div>
+            </div>
         </div>
-        <div class="sec-col">
-        <label for="income">Income</label>
-        <input type="range" id="income" min="1" max="100">
-        </div>
-    </div>
-    <div class="section">
-        <div class="first-col">
-        <label>upload profile picture</label>
-        <input type="file">
-        </div>
-        <div class="sec-col">
-        <label>Age</label>
-        <input type="number" class="input-width">
-        </div>
-    </div>
-        <div class="section">
-        <label for="bio">Bio</label>
-        <textarea id="bio" rows="5" cols="73"></textarea><br>
-        </div>
-        <br>
-      <div class="submit-button">
-        <button>create</button>
-      </div>
     </form>
-    </div>
 </div>
 </body>
+
 </html>
