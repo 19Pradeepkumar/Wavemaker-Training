@@ -1,0 +1,36 @@
+.outerbox{
+  border: 2px solid black;
+  height: 100%;
+  width: 50%;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.innerbox{
+    margin: 20px 10px 10px 10px;
+    border: 2px solid black;
+}
+
+.editor{
+    display: flex;
+    flex-direction: row;
+}
+
+.editor a{
+    padding-left: 15px;
+}
+
+.showscreen{  
+    border: 1px solid black;
+    margin: 8px 15px;
+    text-align: end;
+    height: 50px;
+}
+
+.showscreen p{
+    display: inline;
+}
+
+.icons{
+   display: flex;
+}
