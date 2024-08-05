@@ -20,16 +20,18 @@
     padding-left: 15px;
 }
 
-.showscreen{  
-    border: 1px solid black;
-    margin: 8px 15px;
-    text-align: end;
-    height: 50px;
+.showscreen{
+    margin: 40px;
 }
 
-.showscreen p{
-    display: inline;
+.showscreen input{  
+    font-size: 35px;
+    border: 1px solid black;
+    text-align: end;
+    height: 70px;
+    width: 100%;
 }
+
 
 .icons{
    display: flex;
