@@ -1,29 +1,14 @@
 
-
-
 function arthimeticExpressions(num) {
     let data = document.getElementById("demo").value 
     if(data!="0") data+=num;
     else data = num;
     document.getElementById("demo").value =data
 }
-
 function oneByX(val) {
     let num = '';
     let i;
-    // for (i = stringOnscreen.length - 1; i >= 0; i--) {
-
-    //     if (stringOnscreen[i] <= '9' && stringOnscreen[i] > '0') {
-    //         num = stringOnscreen[i] + num
-    //     }
-    //     else {
-    //         break;
-    //     }
-    // }
     stringOnscreen = document.getElementById("demo").value
-    // console.log(num);
-    // num = 1 / Number(num)
-    // console.log(num);
     document.getElementById("demo").value = eval(1/stringOnscreen)
 }
 
