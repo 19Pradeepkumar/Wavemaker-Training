@@ -18,3 +18,16 @@ assignment-3
 <img width="599" alt="Screenshot 2024-08-02 110841" src="https://github.com/user-attachments/assets/28076982-d550-4307-b297-08a82cba62d8">
 
 
+
+assignment -4
+
+
+<img width="503" alt="Screenshot 2024-08-05 101931" src="https://github.com/user-attachments/assets/fe1a22a3-fcbe-4414-8bb9-2bbb8ef2b835">
+
+
+
+
+<img width="248" alt="Screenshot 2024-08-05 105933" src="https://github.com/user-attachments/assets/f30aee80-2d52-480d-bd29-41cb8222bee7">
+
+
+
