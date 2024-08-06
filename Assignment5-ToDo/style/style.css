@@ -1,0 +1,71 @@
+/* Default Light Mode Styles */
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #212529;
+    cursor: move; /* Indicate draggable items */
+}
+
+.btn-outline-dark {
+    color: #000;
+    border-color: #000;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.navbar.bg-light.dark-mode {
+    background-color: #343a40;
+}
+
+.card.dark-mode {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.btn-outline-dark.dark-mode {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-outline-dark.dark-mode:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+/* Dragging styles */
+.card.dragging {
+    opacity: 0.5;
+}
+
+/* Priority Styles */
+.priority-low {
+    background-color: #d4edda; /* Light green */
+    border-color: #c3e6cb; /* Light green border */
+}
+
+.priority-medium {
+    background-color: #fff3cd; /* Light yellow */
+    border-color: #ffeeba; /* Light yellow border */
+}
+
+.priority-high {
+    background-color: #f8d7da; /* Light red */
+    border-color: #f5c6cb; /* Light red border */
+}
