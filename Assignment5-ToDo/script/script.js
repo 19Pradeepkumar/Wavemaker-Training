@@ -12,11 +12,6 @@ window.onload = function() {
 };
 
 function openAddTaskDialog() {
-    // document.getElementById('dialog-title').textContent = 'Add Task';
-    // document.getElementById('edit-title').value = '';
-    // document.getElementById('edit-description').value = '';
-    // document.getElementById('dialog-priority').value = 'low';
-    // document.getElementById('edit-date').value = '';
     currentTaskIndex = null;
     document.getElementById('edit-dialog').showModal();
 }
