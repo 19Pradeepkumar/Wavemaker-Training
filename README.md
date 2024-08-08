@@ -22,12 +22,19 @@ assignment-3
 assignment -4
 
 
-<img width="503" alt="Screenshot 2024-08-05 101931" src="https://github.com/user-attachments/assets/fe1a22a3-fcbe-4414-8bb9-2bbb8ef2b835">
+<img width="662" alt="Screenshot 2024-08-05 101931" src="https://github.com/user-attachments/assets/375e4a17-7749-41fe-9e77-0a195d7e3aab">
+
+
+<br/>
 
 
 
 
-<img width="248" alt="Screenshot 2024-08-05 105933" src="https://github.com/user-attachments/assets/f30aee80-2d52-480d-bd29-41cb8222bee7">
+
+
+<img width="160" alt="Screenshot 2024-08-05 105933" src="https://github.com/user-attachments/assets/05d5a1d5-4841-4114-8a93-8a5720bc6549">
+
+
 
 
 
