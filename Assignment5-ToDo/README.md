@@ -8,6 +8,7 @@ URL of netlify : https://66b9bb72539cf20008c8acc1--preeminent-nougat-5be60f.netl
 <li>subtask editing functionality not working</li>
   <li>validation of duplicate task not completed (validation till date is working)</li>
 </ul>
+<h4>Completed tasks</h4>
 <p>subtask sorting working</p>
 <p>search in subtask  working</p>
 <p>Alomost remaining tasks working</p>
