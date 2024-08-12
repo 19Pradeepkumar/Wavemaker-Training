@@ -1,3 +1,3 @@
-URL of netlify : https://66b9bb72539cf20008c8acc1--preeminent-nougat-5be60f.netlify.app/
+URL of netlify : https://66b9c2593fdc4b0008e373e0--preeminent-nougat-5be60f.netlify.app/
 
 
